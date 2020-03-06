@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<projectDescription version="1.1">
+    <images folder_name="Images">
+        <image in_project="yes" name="heart" path="heart.vti"/>
+    </images>
+    <paths folder_name="Paths"/>
+    <segmentations folder_name="Segmentations"/>
+    <models folder_name="Models"/>
+    <meshes folder_name="Meshes"/>
+    <simulations folder_name="Simulations"/>
+    <simulations1d folder_name="Simulations1d"/>
+    <svFSI folder_name="svFSI"/>
+    <repository folder_name="Repository"/>
+    <svFSI folder_name="svFSI"/>
+</projectDescription>
+

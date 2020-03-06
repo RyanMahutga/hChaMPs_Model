@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<format version="1.0" />
+<mitk_mesh type="TetGen" model_name="NonCropped">
+    <timestep id="0" />
+</mitk_mesh>

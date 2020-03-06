@@ -1,0 +1,191 @@
+===========================================================================
+         ________    _________   _________     __     _________            
+        |        |\ |        |\ |        |\   |  |\  /         \\          
+        |    ____|| |    ____|| |    __  ||   |__|| |    ___    ||         
+        |   |\___\| |   |\___\| |   |\_| ||    \_\| |   //  \   ||         
+        |   ||      |   ||      |   || | ||    __   |  ||    |  ||         
+        |   ||__    |   ||__    |   ||_| ||   |  |\ |  ||    |  ||         
+        |       |\  |       |\  |         \\  |  || |  ||    |  ||         
+        |    ___||  |    ___||  |    ___   || |  || |  ||    |  ||         
+        |   |\__\|  |   |\__\|  |   |\__|  || |  || |  ||    |  ||         
+        |   ||      |   ||      |   ||  |  || |  || |  ||    |  ||         
+        |   ||      |   ||___   |   ||__|  || |  || |   \\__/   ||         
+        |   ||      |        |\ |          || |  || |           ||         
+        |___||      |________|| |__________|| |__||  \_________//          
+                                                                           
+      F I N I T E   E L E M E N T S   F O R   B I O M E C H A N I C S      
+                                                                           
+                 --- v e r s i o n - 2 . 9 . 1 ---                 
+                                                                           
+                                                                           
+  http://febio.org                                                         
+  FEBio is a registered trademark.                                         
+  copyright (c) 2006-2019 - All rights reserved                            
+                                                                           
+===========================================================================
+
+
+
+
+ FILES USED
+===========================================================================
+	Input file : J:\My Drive\OgleLabTinyHeart\FinalSims\RefinedMeshwLayer\AxialHT3.feb
+	Plot file  : J:\My Drive\OgleLabTinyHeart\FinalSims\RefinedMeshwLayer\AxialHT3.xplt
+	Log file   : J:\My Drive\OgleLabTinyHeart\FinalSims\RefinedMeshwLayer\AxialHT3.log
+
+
+ MESH INFO
+===========================================================================
+	Number of materials ............................ : 1
+	Number of domains .............................. : 1
+	Number of nodes ................................ : 490364
+	Number of solid elements ....................... : 314437
+
+
+ CONTROL DATA
+===========================================================================
+	Module type .................................... : heat
+	Analysis type .................................. : quasi-static
+	Number of timesteps ............................ : 10
+	Time step size ................................. : 0.1
+	Auto time stepper activated .................... : yes
+	  Optimal nr of iterations ..................... : 10
+	  Minimum allowable step size .................. : 0.01
+	  Maximum allowable step size .................. : 0.1
+	Number of loadcurves ........................... : 1
+
+
+ SOLVER PARAMETERS
+===========================================================================
+	symmetric_stiffness ............................... : true
+
+
+ OUTPUT DATA
+===========================================================================
+	plot level ................................ : major iterations
+	plotfile format ........................... : FEBIO
+		Nodal Variables:
+			temperature          (type = float, format = NODE)
+		Domain Variables:
+			heat flux            (type = vec3f, format = ITEM)
+		Surface Variables:
+			enclosed volume      (type = float, format = REGION)
+			enclosed volume      (type = float, format = REGION)
+			enclosed volume      (type = float, format = REGION)
+			enclosed volume      (type = float, format = REGION)
+
+
+ MATERIAL DATA
+===========================================================================
+  1 - Material1 (type: isotropic Fourier)
+	k ................................................. : 0.005
+	c ................................................. : 1
+	density ........................................... : 1
+
+
+ LINEAR SOLVER DATA
+===========================================================================
+	Solver type ............................... : Pardiso
+	Matrix format ............................. : symmetric
+
+
+
+===== beginning time step 1 : 0.1 =====
+===== reforming stiffness matrix:
+	Nr of equations ........................... : 484624
+	Nr of nonzeroes in stiffness matrix ....... : 6606843
+
+
+------- converged at time : 0.1
+
+
+===== beginning time step 2 : 0.2 =====
+
+------- converged at time : 0.2
+
+
+===== beginning time step 3 : 0.3 =====
+
+------- converged at time : 0.3
+
+
+===== beginning time step 4 : 0.4 =====
+
+------- converged at time : 0.4
+
+
+===== beginning time step 5 : 0.5 =====
+
+------- converged at time : 0.5
+
+
+===== beginning time step 6 : 0.6 =====
+
+------- converged at time : 0.6
+
+
+===== beginning time step 7 : 0.7 =====
+
+------- converged at time : 0.7
+
+
+===== beginning time step 8 : 0.8 =====
+
+------- converged at time : 0.8
+
+
+===== beginning time step 9 : 0.9 =====
+
+------- converged at time : 0.9
+
+
+===== beginning time step 10 : 1 =====
+
+------- converged at time : 1
+
+
+
+N O N L I N E A R   I T E R A T I O N   I N F O R M A T I O N
+
+	Number of time steps completed .................... : 10
+
+	Total number of equilibrium iterations ............ : 10
+
+	Average number of equilibrium iterations .......... : 1
+
+	Total number of right hand evaluations ............ : 10
+
+	Total number of stiffness reformations ............ : 10
+
+	Time in linear solver: 0:05:29
+
+
+ Elapsed time : 0:06:17
+
+ T I M I N G   I N F O R M A T I O N
+
+	Input time ...................... : 0:00:16 (15.52 sec)
+
+	Initialization time ............. : 0:00:00 (0.472 sec)
+
+	Solve time ...................... : 0:06:17 (377.334 sec)
+
+	   IO-time (plot, dmp, data) .... : 0:00:02 (2.285 sec)
+
+	   reforming stiffness .......... : 0:00:01 (0.946 sec)
+
+	   evaluating stiffness ......... : 0:00:23 (23.422 sec)
+
+	   evaluating residual .......... : 0:00:00 (0 sec)
+
+	   model update ................. : 0:00:13 (12.508 sec)
+
+	   QN updates ................... : 0:00:00 (0 sec)
+
+	   time in linear solver ........ : 0:05:29 (328.84 sec)
+
+	Total elapsed time .............. : 0:06:33 (393.326 sec)
+
+
+ N O R M A L   T E R M I N A T I O N
+

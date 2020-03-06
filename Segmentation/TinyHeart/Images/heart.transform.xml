@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transform description="original dicom transform to reset the .vti transform when reloading a .vti after converting from dicom. This is needed because mitk loads DICOMs and vtis differently." transform_version="1">
+    <transform t01="0" t00="1" t11="1" t10="0" t12="0" t02="0" t20="0" t21="0" t22="1"/>
+</Transform>
+
