@@ -10,4 +10,4 @@ If using FEBio please cite: Maas SA, Ellis BJ, Ateshian GA, Weiss JA: FEBio: Fin
 
 **Referencing this model:**
 
-If using or adapting this model please cite [Kupfer, M, et al. 2020 "In situ expansion, differentiation and electromechanical coupling of human cardiac muscle in a 3D bioprinted, chambered organoid". Circ. Res]. 
+If using or adapting this model please cite [Kupfer, M. E., Lin, W-H, et al. 2020 "In situ expansion, differentiation and electromechanical coupling of human cardiac muscle in a 3D bioprinted, chambered organoid". Circ. Res]. 
