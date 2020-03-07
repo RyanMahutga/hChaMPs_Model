@@ -8,5 +8,5 @@ If using FEBio please cite: Maas SA, Ellis BJ, Ateshian GA, Weiss JA: FEBio: Fin
 
 **The files contained herein are the original work of Ryan Mahutga (Ph.D. Candidate, Biomedical Engineering, University of Minnesota, Minneapolis, MN, USA). Copyright (C) Ryan Mahutga, 2020.**
 
-Referencing this model:
-If using or adapting this model please cite []. 
+Referencing this model: \n
+If using or adapting this model please cite [Kupfer, M, et al. 2020 "In situ expansion, differentiation and electromechanical coupling of human cardiac muscle in a 3D bioprinted, chambered organoid". Circ. Res]. 
